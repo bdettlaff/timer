@@ -5,14 +5,19 @@
 	<title>Timer do kostki rubika</title>
 
 	<script type="text/javascript" src="timer.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id='timer'>
-		0:0:0
+	<div id="box">
+	<div keydown="czas();" id='timer'>
+		00:00:00
 	</div>
-	<button keydown="czas();">Start</button>
 	<div id='lista'>
+		Tu bedzie highscore i ostatnie wyniki.
 	</div>
-
+	<div id="instrukcja">
+		Tu będzie instrukcja.
+	</div>
+	</div>
 </body>
 </html>
